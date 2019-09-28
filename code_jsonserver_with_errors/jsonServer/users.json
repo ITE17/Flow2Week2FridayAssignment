@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": 100,
+      "age": 39,
+      "name": "Madeleine Flynnffff",
+      "gender": "female",
+      "email": "madeleineflynn@jumpstack.com"
+    },
+    {
+      "id": 101,
+      "age": 34,
+      "name": "Cecile Benson",
+      "gender": "female",
+      "email": "cecilebenson@jumpstack.com"
+    },
+    {
+      "id": 102,
+      "age": 20,
+      "name": "Kennedy Branch",
+      "gender": "male",
+      "email": "kennedybranch@jumpstack.com"
+    },
+    {
+      "id": 103,
+      "age": 32,
+      "name": "Lucinda Ballard",
+      "gender": "female",
+      "email": "lucindaballard@jumpstack.com"
+    },
+    {
+      "age": 23,
+      "name": "Donald Duck",
+      "gender": "male",
+      "email": "peters@pan.com",
+      "id": 106
+    },
+    {
+      "id": 107,
+      "age": 32,
+      "name": "Sherrie Sexton",
+      "gender": "female",
+      "email": "sherriesexton@jumpstack.com"
+    },
+    {
+      "id": 108,
+      "age": 33,
+      "name": "Bright Mccarty",
+      "gender": "male",
+      "email": "brightmccarty@jumpstack.com"
+    },
+    {
+      "id": 109,
+      "age": 34,
+      "name": "Rush Hays",
+      "gender": "male",
+      "email": "rushhays@jumpstack.com"
+    },
+    {
+      "id": 110,
+      "age": 26,
+      "name": "Whitehead Rose",
+      "gender": "male",
+      "email": "whiteheadrose@jumpstack.com"
+    },
+    {
+      "id": 111,
+      "age": 33,
+      "name": "Buchanan Frye",
+      "gender": "male",
+      "email": "buchananfrye@jumpstack.com"
+    },
+    {
+      "id": 112,
+      "age": 24,
+      "name": "Baker Pratt",
+      "gender": "male",
+      "email": "bakerpratt@jumpstack.com"
+    },
+    {
+      "age": 23,
+      "name": "Peter Pan",
+      "gender": "male",
+      "email": "peters@pan.com",
+      "id": 113
+    },
+    {
+      "name": "Fedtmule",
+      "age": "77",
+      "gender": "male",
+      "email": "fedtet@hotmail.com",
+      "id": 114
+    },
+    {
+      "name": "Hansen him",
+      "age": "33",
+      "gender": "male",
+      "email": "mini@hotmail.com",
+      "id": 115
+    },
+    {
+      "name": "mimi",
+      "age": "66",
+      "gender": "female",
+      "email": "mimi@outlook.com",
+      "id": 116
+    },
+    {
+      "name": "Faktisk en pige",
+      "age": "12",
+      "gender": "female",
+      "email": "ikke@googlemail.com",
+      "id": 117
+    },
+    {
+      "age": 23,
+      "name": "Donald And",
+      "gender": "male",
+      "email": "peters@pan.com",
+      "id": 118
+    },
+    {
+      "age": 26,
+      "name": "Goofy",
+      "gender": "male",
+      "email": "peters@pan.com",
+      "id": 119
+    }
+  ]
+}

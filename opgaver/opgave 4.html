@@ -1,0 +1,49 @@
+<script>
+    var persons = [{ name: "Lars", phone: "12346" }, { name: "Peter", phone: "67583" }, { name: "Jan", phone: "98547" }, { name: "Bo", phone: "79345" }];
+    var names = ["anders", "abla", "iben", "solle", "asger", "henning", "frode", "frida", "helge", "helga", "preben"];
+
+    Array.prototype.writeHTML = function () {
+        var html = "<nav>\n";
+        for (var i = 0; i < this.length; i++) {
+            html = html + "      <a href=" + ">" + this[i] + "</a>\n";
+        };
+        html = html + "</nav>"
+        return html;
+    }
+    
+    function myFunction() {
+        var joinedArray = "<table>\n" + "<tr> \n <th> Name </th> <th> Phone </th> \n</tr> \n" + persons.map(person => "<tr>  <td>" + person.name + "</td>\n" + "<td>" + person.phone + "</td>\n </tr>").join(" ") + "</table>";
+        document.getElementById("names").innerHTML = joinedArray;
+    }
+
+    function thisFunction() {
+        var htmlNames = names.writeHTML();
+        document.getElementById("names2").innerHTML = htmlNames;
+    }
+
+    function filtering() {
+        var filteredPersons = persons.filter(person => person.name.includes("a"));
+        var joinedFilteredPersons = "<table>\n" + "<tr> \n <th> Name </th> <th> Phone </th> \n</tr> \n" + filteredPersons.map(person => "<tr>   <td>" + person.name + "</td>\n" + "<td>" + person.phone + "</td>\n </tr>").join(" ") + "</table>";
+        document.getElementById("names").innerHTML = joinedFilteredPersons;
+    }
+</script>
+
+
+<button onclick="myFunction()">
+    Kom med table1
+</button>
+
+<div id="names">
+    tekst
+</div>
+
+<button onclick="filtering()">
+    Filtrer!
+</button>
+
+<button onclick="thisFunction()">
+    kom med navne
+</button>
+<div id="names2" >
+    tekstmere
+</div>
